@@ -1,0 +1,3 @@
+/home/dafoamuser/workspace/CFD_homework/homework3/Scripts/build/CMakeFiles/rebuild_cache.dir
+/home/dafoamuser/workspace/CFD_homework/homework3/Scripts/build/CMakeFiles/pySolvers.dir
+/home/dafoamuser/workspace/CFD_homework/homework3/Scripts/build/CMakeFiles/edit_cache.dir
