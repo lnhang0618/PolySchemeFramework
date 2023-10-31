@@ -2,15 +2,15 @@
 
 # source files and target file
 SRC_DIRS=(
-    "/home/dafoamuser/workspace/CFD_homework/homework3/Solvers"
-    "/home/dafoamuser/workspace/CFD_homework/homework3/Lax"
-    "/home/dafoamuser/workspace/CFD_homework/homework3/Scripts"
-    "/home/dafoamuser/workspace/CFD_homework/homework3/DataTable"
-    "/home/dafoamuser/workspace/CFD_homework/homework3/Wrapper"
-    "/home/dafoamuser/workspace/CFD_homework/homework3/Lax-Wendroff"
-    "/home/dafoamuser/workspace/CFD_homework/homework3/FirstOrderUpwind"
+    "../Solvers"
+    "../Lax"
+    "../Scripts"
+    "../DataTable"
+    "../Wrapper"
+    "../Lax-Wendroff"
+    "../FirstOrderUpwind"
 )
-DEST_DIR="/home/dafoamuser/workspace/CFD_homework/homework3/Include"
+DEST_DIR="../Include"
 
 # clean the target directory
 rm -rf $DEST_DIR/*

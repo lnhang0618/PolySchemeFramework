@@ -5,12 +5,12 @@ project(pySolvers)
 set(CMAKE_CXX_STANDARD 14)
 
 # 指定查找头文件的路径
-include_directories(/home/dafoamuser/workspace/CFD_homework/homework3/Include)
+include_directories(../Include)
 
 # 获取所有的源文件
-file(GLOB SOURCE_FILES /home/dafoamuser/workspace/CFD_homework/homework3/Include/*.C)
+file(GLOB SOURCE_FILES ../Include/*.C)
 
-# 添加库文件搜索路径
+# 添加库文件搜索路径 #path/to/your/pybind11
 list(APPEND CMAKE_PREFIX_PATH "/home/dafoamuser/dafoam/packages/miniconda3/lib/python3.8/site-packages/pybind11/share/cmake/pybind11")
 
 # 找到pybind11
